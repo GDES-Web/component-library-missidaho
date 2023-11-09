@@ -1,0 +1,29 @@
+.containerwrapper {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: none;
+
+}
+.wrapper2 {
+    display: flex;
+
+}
+.wrappercontainer {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: none;
+    // max-height: 200px;
+    // width: auto;
+    overflow: hidden;
+    &.wrapperrow {
+        flex-direction: row;
+        padding: none;
+        margin-top: 10px;
+    }
+}
+.wrappertxt {
+    padding: 20px;
+}
